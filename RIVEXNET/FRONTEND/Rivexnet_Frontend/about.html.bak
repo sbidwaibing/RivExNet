@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rivexnet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>RIVEXNET</h1>
+    </section>
+
+    <!------about us content----->
+
+    <section class="about-us">
+      <div class="content">
+        <br />
+        <h2>What do we do</h2>
+        <br />
+
+        <p>
+          Extraction of water bodies from satellite imagery has been broadly
+          studied for many reasons, eg: mapping of natural resources, drinking
+          water supplies, food production, agricultural planning, and disaster
+          management, etc. With the growth of global warming, it became
+          essential to maintain the sustainable management of these resources
+          for the preservation of human life.
+        </p>
+
+        <br /><br />
+        <h2>Our Mission</h2>
+        <br />
+
+        <p>
+          To develop a technique with automatic feature extraction for mapping
+          of rivers network from high resolution multispectral satellite image.
+          To evaluate of different classification techniques by a comparative
+          study with the performance measures. To integrate implemented model
+          with functional website.
+        </p>
+        <br /><br />
+        <h2><u>Our Goal</u></h2>
+        <br />
+
+        <p>
+          The goal of our application is to fully satisfy our users with 100%
+          accurate results and providing them with all the information they
+          require related to food at one place at one platform. Our goal is to
+          make our application the ultimate source of all the information
+          related to river extraction from satellite images.
+        </p>
+        <br /><br />
+      </div>
+
+      <section class="Photos">
+        <div class="ourteam" style="text-align: center; padding-bottom: 10px">
+          <h2>Our Team</h2>
+   
+        </div>
+        <div class="row">
+          
+		  
+		  <div class = "column">
+		   <div class="card">
+			  <img src="Images/sukrut.png" alt="Avatar" style="width: 200px; height: 200px;padding-top: 15px">
+			  <div class="container">
+				<h2><b>Sukrut Bidwai</b></h2>
+				<h4>ML Engineer</h4>
+			  </div>
+			</div> 
+		  </div>
+		  
+		   <div class = "column">
+		   <div class="card">
+			  <img src="Images/devang.jpg" alt="Avatar" style="width: 200px; height: 200px;padding-top: 15px">
+			  <div class="container">
+				<h2><b>Devang Jagdale</b></h2>
+				<h4>Deep Learning Engineer</h4>
+			  </div>
+			</div> 
+		  </div>
+		  
+		<div class = "column">
+		   <div class="card">
+			  <img src="Images/tejas.jpeg" alt="Avatar" style="width: 200px; height: 200px; padding-top: 15px">
+			  <div class="container">
+				<h2><b>Tejas Hiremath</b></h2>
+				<h4>Backend Engineer</h4>
+			  </div>
+			</div> 
+		  </div>
+		  
+		  <div class = "column">
+		   <div class="card">
+			  <img src="Images/Neil.jpeg" alt="Avatar" style="width: 200px; height: 200px; padding-top: 15px">
+			  <div class="container">
+				<h2><b>Neil Bhutada</b></h2>
+				<h4>Content Designer</h4>
+			  </div>
+			</div> 
+		  </div>
+		 
+        </div>
+      </section>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function showMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

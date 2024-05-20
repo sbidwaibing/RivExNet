@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rivexnet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!------contact----->
+
+    <section class="about-us">
+      <div class="map">
+        <div class="col-md-6" id="map" align-items:center>
+          <div style="border-radius:10px;overflow: hidden;width: fit-content;display: flex;height: fit-content;">
+		  <iframe
+            style="height: 500px; width: 100%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.237653179856!2d73.81292365019708!3d18.51815967401991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfa252ccdd65%3A0xacd0e56536a03109!2sMIT%20WPU%20University%2C%20Vishwashanti%20Marg%2C%20Rambaug%20Colony%2C%20Kothrud%2C%20Pune%2C%20Maharashtra%20411038!5e0!3m2!1sen!2sin!4v1653993913898!5m2!1sen!2sin"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          >
+          </iframe>
+         </div>
+        </div>
+      </div>
+
+      <div class="row">
+		
+		<div class = "column">
+		   <div class="card" style="padding-top:10px">
+			  <div class="container" >
+				<h2><b>🏫 Address</b></h2>
+				<p>Dr. Vishwanath Karad MIT - World Peace University S.No.124, Paud Road, Kothrud, Pune, Maharashtra 411038</p>
+			  </div>
+			</div> 
+		  </div>
+		
+		<div class = "column">
+		   <div class="card" style="padding-top:10px">
+			  <div class="container" >
+				<h2><b>📞 Phone</b></h2>
+				<p>+91 86989 61448</p>
+			  </div>
+			</div> 
+		  </div>
+	
+		<div class = "column">
+		   <div class="card" style="padding-top:10px">
+			  <div class="container" >
+				<h2><b>📧 Email</b></h2>
+				<p>s.bidwai2000@gmail.com</p>
+			  </div>
+			</div> 
+		  </div>
+      </div>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function showMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
